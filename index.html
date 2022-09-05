@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+  <!-- <link rel="stylesheet" href="input.css"> -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+
+</head>
+
+<body class="bg-orange-100 lg:mx-72 lg:mt-28">
+  <div class="container px-4 py-8 lg:flex m-auto lg:w-[60%] ">
+    <!-- This is the upper body  -->
+    <!-- Contains IMAGE -->
+    <div class="upper ">
+      <img src="IMG\images\image-product-mobile.jpg" class="border rounded-t-xl lg:hidden" alt="">
+      <img src="IMG\images\image-product-desktop.jpg" alt="" class="hidden lg:flex border rounded-l-xl">
+    </div>
+    <!-- Upper end -->
+
+      <!-- This is lower body  -->
+      <!-- And this contains all the details  -->
+    <div class="lower pb-7 bg-white border sm:rounded-b-xl lg:rounded-r-xl lg:px-6 lg:rounded-none lg:grid lg:max-w-[50%]">
+      <h1 class="head font-mono font-bold opacity-50 text-xl px-4 py-4">PERFUME</h1>
+      <h2 class="text-3xl font-serif font-bold px-4">Gabrielle Essence Eau De Parfum</h2>
+
+      <p class="font-serif font-semibold opacity-80 text-gray-600 px-4 py-4"> A floral, solar and voluptuous
+        interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+
+      <span class="text-4xl font-serif px-4 pb-3 space-x-3">
+        <span class="font-bold  text-green-700">$149.99</span>
+        <span class="text-sm line-through">$169.99</span>
+      </span>
+
+      <!-- Here is button And Form Element -->
+      <form action="/submit" class="flex justify-center py-3">
+        <button class=" border border-green-700 bg-green-700 font-semibold text-white rounded-md mx-4 py-3 w-[100%]  lg:py-1 lg:px-2">Add to Cart</button>
+      </form>
+    </div>
+    <!-- Lower End -->
+  </div>
+  <!-- Container ends -->
+
+  <!-- Footer element -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Aditya Singh</a>.
+  </div>
+</body>
+
+</html>
